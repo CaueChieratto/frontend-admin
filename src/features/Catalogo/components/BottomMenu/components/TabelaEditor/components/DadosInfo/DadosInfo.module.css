@@ -1,0 +1,56 @@
+.container_info {
+  border-bottom: 1px solid var(--grey);
+  display: flex;
+  flex-direction: column;
+}
+
+.container_input {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 4px 0;
+  height: 51px;
+  position: relative;
+}
+
+.container_input_extra {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 4px 0;
+  height: 51px;
+  position: relative;
+}
+
+.infos {
+  background-color: transparent;
+  font: var(--small) var(--font_family);
+  color: var(--text);
+  text-align: center;
+  width: 99.5%;
+  height: 100%;
+  border-right: 1px solid var(--grey);
+  border-top: 1px solid var(--grey);
+}
+
+.delete {
+  color: var(--red);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  cursor: pointer;
+  height: 100%;
+}
+
+.delete_extra {
+  color: var(--red);
+  position: absolute;
+  top: 0;
+  right: -4px;
+  z-index: 99999;
+  cursor: pointer;
+  height: 100%;
+}

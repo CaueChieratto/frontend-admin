@@ -1,0 +1,25 @@
+.container_dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-right: 1px solid var(--grey);
+  padding: 12px 0;
+  justify-items: center;
+  align-items: center;
+  gap: 4px 0;
+}
+
+.container_dados_extra {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-right: 1px solid var(--grey);
+  padding: 12px 0;
+  justify-items: center;
+  align-items: center;
+  gap: 4px 0;
+}
+
+.dados {
+  padding: 0 16px;
+  font: var(--small) var(--font_family);
+  color: var(--text);
+}

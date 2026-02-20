@@ -1,0 +1,11 @@
+.container_pdf {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.container_buttons_pdf {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}

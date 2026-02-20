@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_pn {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  gap: 12px;
+}
+
+.pn {
+  font: var(--small) var(--font_family);
+  color: var(--text);
+  text-transform: uppercase;
+}
+
+.input {
+  height: 100%;
+  width: 75px;
+  border-radius: 8px;
+  padding: 0 16px;
+  background-color: transparent;
+  border: 1px solid;
+  font: var(--small) var(--font_family);
+}
+
+.container_button {
+  display: flex;
+  gap: 12px;
+}

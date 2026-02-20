@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 650px;
+  width: 315px;
+  position: relative;
+}
+
+.container_produto {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

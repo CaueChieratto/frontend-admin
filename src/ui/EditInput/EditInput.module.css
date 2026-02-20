@@ -1,0 +1,18 @@
+.inputEdit {
+  background-color: transparent;
+  border: 1px solid var(--grey);
+  color: var(--text);
+  font: 500 var(--medium) var(--font_family);
+  padding: 6px 24px;
+  border-radius: 4px;
+}
+
+.inputEditProduto {
+  background-color: transparent;
+  border: 1px solid var(--grey);
+  color: var(--text);
+  font: 500 var(--medium) var(--font_family);
+  padding: 6px 24px;
+  border-radius: 4px;
+  width: 100%;
+}

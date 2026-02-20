@@ -1,0 +1,6 @@
+import { ENV } from "./env";
+
+export const CLOUDINARY = {
+  CLOUD_NAME: ENV.CLOUDINARY_CLOUD_NAME,
+  UPLOAD_PRESET: ENV.CLOUDINARY_UPLOAD_PRESET,
+} as const;

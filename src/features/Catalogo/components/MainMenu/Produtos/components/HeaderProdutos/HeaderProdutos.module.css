@@ -1,0 +1,20 @@
+.container_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.produto_quantity_container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.produto_quantity {
+  font: var(--medium) var(--font_family);
+}
+
+.icon {
+  height: 30px;
+  cursor: pointer;
+}

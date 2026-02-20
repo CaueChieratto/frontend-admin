@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: start;
+  gap: 18px;
+  min-height: 380px;
+}
+
+.container_produto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.selected .name {
+  color: var(--green);
+}
+
+.container_image {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.image {
+  width: 90px;
+}
+
+.name {
+  font: var(--small) var(--font_family);
+  color: var(--text);
+  text-align: center;
+}

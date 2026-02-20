@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  --font_family: "DM Sans", sans-serif;
+  --large: 30px/38px;
+  --medium: 22px/30px;
+  --small: 18px/26px;
+  --background: #00090e;
+  --card: #171d1f;
+  --text: #e1e1e1;
+  --green: #81fe88;
+  --grey: #888888;
+  --red: #ff4d4d;
+  --green_tabela: #53a677;
+  --blue_tabela: #0770b5;
+  --brown_tabela: #856d57;
+  --light_green_tabela: #aadfba;
+  --light_blue_tabela: #86c4e8;
+  --light_brown_tabela: #ddd3c9;
+}

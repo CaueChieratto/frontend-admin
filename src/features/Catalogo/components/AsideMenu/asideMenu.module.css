@@ -1,0 +1,18 @@
+.title {
+  font: bold var(--medium) var(--font_family);
+  text-align: center;
+  color: var(--text);
+}
+
+.listaLinhas {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  min-height: 400px;
+}
+
+.container_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

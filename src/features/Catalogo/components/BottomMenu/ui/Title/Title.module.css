@@ -1,0 +1,29 @@
+.container_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  width: 100%;
+  cursor: pointer;
+}
+
+.description {
+  font: 600 var(--small) var(--font_family);
+  text-align: center;
+}
+
+.container_icons_produto {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  color: var(--green);
+  width: 100%;
+  cursor: pointer;
+}
+
+.description_produto {
+  font: var(--large) var(--font_family);
+  text-align: center;
+  text-transform: uppercase;
+}

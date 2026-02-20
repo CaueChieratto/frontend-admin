@@ -1,0 +1,32 @@
+.container_tabela {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.container_dados {
+  border-top: 1px solid var(--grey);
+  border-left: 1px solid var(--grey);
+}
+
+.container_icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.add_text {
+  font: var(--medium) var(--font_family);
+}

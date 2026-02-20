@@ -1,0 +1,10 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.container_button {
+  display: flex;
+  justify-content: center;
+}
