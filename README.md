@@ -3,7 +3,7 @@
 O **Frontend Admin** é um painel de administração desenvolvido à medida para gerir um catálogo de produtos. Esta plataforma permite aos administradores controlar de forma centralizada todas as linhas de produtos, especificações técnicas, imagens e documentos associados (como PDFs).
 
 🔗 **Backend da aplicação (API RESTful):**
-[https://github.com/CaueChieratto/backend-admin](https://github.com/CaueChieratto/backend-admin)
+[https://github.com/CaueChieratto/backend-jati](https://github.com/CaueChieratto/backend-jati)
 
 Este frontend consome a API do repositório acima, que é responsável por:
 
@@ -81,7 +81,7 @@ src/
 
 A aplicação depende diretamente do backend disponível em:
 
-👉 [https://github.com/CaueChieratto/backend-admin](https://github.com/CaueChieratto/backend-admin)
+👉 [https://github.com/CaueChieratto/backend-jati](https://github.com/CaueChieratto/backend-jati)
 
 Para funcionamento completo:
 
